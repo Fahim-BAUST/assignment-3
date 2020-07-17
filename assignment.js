@@ -84,7 +84,7 @@ function brickCalculator(noOfFloar){
         return totallBrick;
     }
     else{
-        return "Warning : Wrong input please check again otherwise we can not calculate no of "
+        return "Warning : Wrong input please check again otherwise we can not calculate no of ";
     }
 
 }
@@ -93,7 +93,7 @@ function brickCalculator(noOfFloar){
 var noOfFloar=9;
 
 var totallBrick=brickCalculator(noOfFloar);
-console.log("total brick needed for (",noOfFloar,")floar building = ", totallBrick,"bricks")
+console.log("total brick needed for (",noOfFloar,")floar building = ", totallBrick,"bricks");
 
 
 // PROBLEM 04:- TINY FRIEND
