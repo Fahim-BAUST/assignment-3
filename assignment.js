@@ -5,11 +5,11 @@ function feetToMile(feet){
     var mile;
     if(feet<0)
     {
-        return "length cannot be negative and so cannot be converted to";
+        return "Warning : length cannot be negative and so cannot be converted to";
     }
     else if(typeof feet == "string")
     {
-        return "please give a positive number so that we can convert it to";
+        return "Warning : please give a positive number so that we can convert it to";
     }
     else{
 
@@ -33,11 +33,11 @@ function woodCalculator(chairNo,tableNo,bedNo)
 
     if(chairNo<0 || tableNo<0 || bedNo<0)
     {
-        return "Quantity cannot be negative and so we can not calculate this in ";
+        return "Warning : Quantity cannot be negative and so we can not calculate this in ";
     }
     else if( typeof chairNo=='string' || typeof tableNo=='string' || typeof bedNo=='string')
     {
-        return "please give positive numbers so that we can calculate this in";
+        return " Warning : please give positive numbers so that we can calculate this in";
     }
 
     else{
@@ -62,7 +62,7 @@ function brickCalculator(noOfFloar){
 
     if(noOfFloar<0 || typeof noOfFloar=='string')
     {
-        return "Input value cannot be negative or a string it have to be a number and so we can not calculate no of";
+        return "Warning : Input value cannot be negative or a string it have to be a number and so we can not calculate no of";
     }
     else if(noOfFloar <11){
         totallHeight= noOfFloar*15;
@@ -84,7 +84,7 @@ function brickCalculator(noOfFloar){
         return totallBrick;
     }
     else{
-        return "wrong input please check again otherwise we can not calculate no of "
+        return "Warning : Wrong input please check again otherwise we can not calculate no of "
     }
 
 }
